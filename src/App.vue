@@ -226,7 +226,7 @@ import {
   WarnTriangleFilled
 } from '@element-plus/icons-vue'
 
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, defineComponent } from 'vue'
 
 /* 时间 */
 const time = ref('')
